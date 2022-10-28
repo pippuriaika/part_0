@@ -1,0 +1,10 @@
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/spa - Request Method GET
+Server to Browser - text/html - path: /exampleapp/spa
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/main.css - Request Method GET
+Server to Browser - text/css - path: /exampleapp/main.css
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/spa.js - Request Method GET
+Server to Browser - application/javascript - path: /exampleapp/spa.js
+<-Browser javascript application starts->
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/data.json - Request Method GET
+Server to Browser - application/json - path: /exampleapp/data.json
+<-Browser JSON application starts->

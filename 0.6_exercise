@@ -1,0 +1,3 @@
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/new_note_spa - Request Method POST <-as JSON app data->
+Server to Browser - New Note data created
+Browser - New note data is reflected through Javascript application changes to the html

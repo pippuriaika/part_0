@@ -1,0 +1,22 @@
+Opening page:
+
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/notes - Request Method GET
+Server to Browser - text/html - path: /exampleapp/notes
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/main.css - Request Method GET
+Server to Browser - text/css - path: /exampleapp/main.css
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/main.js - Request Method GET
+Server to Browser - application/javascript - path: /exampleapp/main.js
+<-Browser javascript application starts->
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/data.json - Request Method GET
+Server to Browser - application/json - path: /exampleapp/data.json
+<-Browser JSON application starts->
+
+
+Posting new note:
+
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/new_note - Request Method POST to /exampleapp/notes on server
+Server to Browser - Accept POST
+<-JSON code determines that browser then retrieves updated notes html data from server after post is sent->
+Browser to Server - Request URL https://studies.cs.helsinki.fi/exampleapp/notes - Request Method GET
+Server to Browser - text/html - path: /exampleapp/notes
+<-updated html with updated note data is displayed on browser->
